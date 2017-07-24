@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- All variables should be defined here -->
+<?define NAME="SSAI Shield"?>
+<?define MANUFACTURER="SSAI"?>
+<?define GUID="f97710bc-4ef6-463b-8b52-05ef0aca867a"?>
+<?define UPGRADECODE="7ff5e72d-67a5-4c6b-929a-c139d0acadba"?>
+<?define VERSION="1.0.0"?>
+
+<Wix xmlns='http://schemas.microsoft.com/wix/2006/wi'>
+
+  <!-- Product ID only changes on major/new installers -->
+  <Product Id="$(var.GUID)" Name="$(var.NAME)" Language="1033" Version="$(var.VERSION)" Manufacturer="$(var.MANUFACTURER)" UpgradeCode="$(var.UPGRADECODE)">
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+    <Media Id='1' Cabinet='Sample.cab' EmbedCab='yes' />
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+
+    <!-- Defines componets/componetgroups to be installed. -->
+    <Feature Id="MAINFEATURE" Title="MAINFILES" Level="1">
+      <ComponentRef Id="binFiles"/>
+	  <ComponentRef Id="updater"/>
+    </Feature>
+  </Product>
+
+  <!-- Directory Structure-->
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder" Name="PFiles">
+        <Directory Id="BINFOLDER" Name="bin">
+          <Directory Id="DEPLOY" Name="deploy" />
+        </Directory>
+      </Directory>
+    </Directory>
+  </Fragment>
+  
+  <Fragment>
+    <Component Id="binFiles" Directory="BINFOLDER">
+      <File Id="mainEXE" Source="C:\Users\heenay\Favorites\Pictures\Old Photos of family\Desktop\install_test.txt" KeyPath="yes"></File>
+    </Component>
+	<Component Id="updater" Directory="BINFOLDER">
+	  <File Id="updaterEXE" Source="C:\Users\heenay\Favorites\Pictures\Old Photos of family\Desktop\updater.txt" KeyPath="yes"></File>
+	</Component>
+  </Fragment>
+</Wix>

@@ -1,0 +1,9 @@
+c:\users\heenay\documents\visual studio 2013\Projects\UpdateCreationUI\UpdateCreationUI\bin\Debug\UpdateCreationUI.exe.config
+c:\users\heenay\documents\visual studio 2013\Projects\UpdateCreationUI\UpdateCreationUI\bin\Debug\UpdateCreationUI.exe
+c:\users\heenay\documents\visual studio 2013\Projects\UpdateCreationUI\UpdateCreationUI\bin\Debug\UpdateCreationUI.pdb
+c:\users\heenay\documents\visual studio 2013\Projects\UpdateCreationUI\UpdateCreationUI\obj\Debug\UpdateCreationUI.csprojResolveAssemblyReference.cache
+c:\users\heenay\documents\visual studio 2013\Projects\UpdateCreationUI\UpdateCreationUI\obj\Debug\UpdateCreationUI.Form1.resources
+c:\users\heenay\documents\visual studio 2013\Projects\UpdateCreationUI\UpdateCreationUI\obj\Debug\UpdateCreationUI.Properties.Resources.resources
+c:\users\heenay\documents\visual studio 2013\Projects\UpdateCreationUI\UpdateCreationUI\obj\Debug\UpdateCreationUI.csproj.GenerateResource.Cache
+c:\users\heenay\documents\visual studio 2013\Projects\UpdateCreationUI\UpdateCreationUI\obj\Debug\UpdateCreationUI.exe
+c:\users\heenay\documents\visual studio 2013\Projects\UpdateCreationUI\UpdateCreationUI\obj\Debug\UpdateCreationUI.pdb

@@ -1,0 +1,6 @@
+obj\Debug\Product.wixobj
+C:\Users\heenay\Documents\Visual Studio 2013\Projects\template\template\bin\Debug\template.msi
+C:\Users\heenay\Documents\Visual Studio 2013\Projects\template\template\bin\Debug\template.wixpdb
+obj\Debug\template.wixproj.BindContentsFileListnull.txt
+obj\Debug\template.wixproj.BindOutputsFileListnull.txt
+obj\Debug\template.wixproj.BindBuiltOutputsFileListnull.txt
